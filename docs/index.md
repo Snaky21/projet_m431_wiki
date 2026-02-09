@@ -27,14 +27,14 @@ Ce site est votre point de repère pour tous les outils informatiques du cours. 
 
 ---
 
-# 📑 Rapport de Projet : Infrastructure Automatisée
+## 📑 Rapport de Projet : Infrastructure Automatisée
 
 **Sujet :** Automatisation du routage et sécurisation SSL pour services auto-hébergés.
 **Objectif :** Créer une plateforme capable d'accueillir n'importe quel projet Docker en garantissant sécurité et accessibilité. 🛠️
 
 ---
 
-## 1. 🛠️ Méthodologie de Projet (6 Étapes)
+### 1. 🛠️ Méthodologie de Projet (6 Étapes)
 
 Pour mener à bien ce projet, nous avons suivi une méthode rigoureuse :
 
@@ -47,7 +47,7 @@ Pour mener à bien ce projet, nous avons suivi une méthode rigoureuse :
 
 ---
 
-## 2. 🎯 Présentation du Concept Technique
+### 2. 🎯 Présentation du Concept Technique
 
 Ce projet vise à mettre en place un environnement serveur moderne où chaque application est isolée dans un **conteneur Docker**. L'intelligence du système réside dans sa capacité à :
 * Identifier les nouveaux services sans intervention humaine. 🤖
@@ -56,25 +56,23 @@ Ce projet vise à mettre en place un environnement serveur moderne où chaque ap
 
 ---
 
-## 3. 🏗️ Architecture du Système
+### 3. 🏗️ Architecture du Système
 
-### A. Le Nom de Domaine (DuckDNS) 🦆
+#### A. Le Nom de Domaine (DuckDNS) 🦆
 Plutôt que d'acheter un domaine coûteux, nous utilisons **DuckDNS**.
 * **Le rôle :** Il fournit une adresse fixe et gratuite.
 * **La magie SSL :** Grâce à l'API DuckDNS, notre serveur prouve son identité à l'autorité **Let's Encrypt** via un "DNS Challenge".
 
-### B. L'Aiguilleur : Le Reverse Proxy 🚦
+#### B. L'Aiguilleur : Le Reverse Proxy 🚦
 C'est le composant central qui distribue les requêtes aux bons conteneurs.
 
 | Solution | Style | Atout Majeur |
 | :--- | :--- | :--- |
 | **Traefik Proxy** | ⚙️ Automatique | Détection des services par "labels". C'est le standard industriel. |
 
-
-
 ---
 
-## 4. 🧠 Les Fondations (Prérequis)
+### 4. 🧠 Les Fondations (Prérequis)
 
 Pour aller plus loin, cliquez sur les liens pour voir les détails techniques :
 
@@ -89,17 +87,12 @@ Pour aller plus loin, cliquez sur les liens pour voir les détails techniques :
 
 Ce projet a été conçu par l'équipe suivante dans le cadre du module M431 :
 
-* **Gabriel** 
-* **Jonathan** 
-* **Kévin** 
-* **Rafael** 
+* **Gabriel**
+* **Jonathan**
+* **Kévin**
+* **Rafael**
 
 Si vous trouvez une erreur ou souhaitez ajouter une commande, n'hésitez pas à nous le signaler sur GitHub !
 
-
 !!! tip "Le saviez-vous ?"
     Vous pouvez utiliser la barre de recherche en haut à droite pour trouver rapidement une commande spécifique (ex: "ip config").
-
-
-
-
