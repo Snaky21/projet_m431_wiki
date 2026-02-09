@@ -55,4 +55,4 @@ graph TD
 
 ---
 
-### **Retour en arrière ->** [Homepage](https://github.com/Snaky21/projet-m431.git)
+### **Retour en arrière ->** [Homepage](https://snaky21.github.io/projet_m431_wiki/)
