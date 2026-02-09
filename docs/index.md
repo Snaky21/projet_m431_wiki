@@ -87,10 +87,17 @@ Pour aller plus loin, cliquez sur les liens pour voir les détails techniques :
 
 Ce projet a été conçu par l'équipe suivante dans le cadre du module M431 :
 
-* **Gabriel**
-* **Jonathan**
-* **Kévin**
-* **Rafael**
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-user: **Gabriel**
+
+-   :fontawesome-solid-user: **Jonathan**
+
+-   :fontawesome-solid-user: **Kévin**
+
+-   :fontawesome-solid-user: **Rafael**
+
+</div>
 
 Si vous trouvez une erreur ou souhaitez ajouter une commande, n'hésitez pas à nous le signaler sur GitHub !
 
